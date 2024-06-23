@@ -1,0 +1,163 @@
+is_global = true
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = MvcRestauracja
+build_property.RootNamespace = MvcRestauracja
+build_property.ProjectDir = /Users/aleksandraignacyk/Studia/semestr3/pz2/lab11/MvcRestauracja/
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = /Users/aleksandraignacyk/Studia/semestr3/pz2/lab11/MvcRestauracja
+build_property._RazorSourceGeneratorDebug = 
+
+[/Users/aleksandraignacyk/Studia/semestr3/pz2/lab11/MvcRestauracja/Views/Danie/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvRGFuaWUvQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/aleksandraignacyk/Studia/semestr3/pz2/lab11/MvcRestauracja/Views/Danie/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvRGFuaWUvRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/aleksandraignacyk/Studia/semestr3/pz2/lab11/MvcRestauracja/Views/Danie/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvRGFuaWUvRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/aleksandraignacyk/Studia/semestr3/pz2/lab11/MvcRestauracja/Views/Danie/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvRGFuaWUvSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/aleksandraignacyk/Studia/semestr3/pz2/lab11/MvcRestauracja/Views/Home/Dashboard.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9EYXNoYm9hcmQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/aleksandraignacyk/Studia/semestr3/pz2/lab11/MvcRestauracja/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9JbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/aleksandraignacyk/Studia/semestr3/pz2/lab11/MvcRestauracja/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9Qcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/aleksandraignacyk/Studia/semestr3/pz2/lab11/MvcRestauracja/Views/Kelner/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvS2VsbmVyL0NyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/aleksandraignacyk/Studia/semestr3/pz2/lab11/MvcRestauracja/Views/Kelner/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvS2VsbmVyL0RlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/aleksandraignacyk/Studia/semestr3/pz2/lab11/MvcRestauracja/Views/Kelner/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvS2VsbmVyL0RldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/aleksandraignacyk/Studia/semestr3/pz2/lab11/MvcRestauracja/Views/Kelner/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvS2VsbmVyL0VkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/aleksandraignacyk/Studia/semestr3/pz2/lab11/MvcRestauracja/Views/Kelner/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvS2VsbmVyL0luZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/aleksandraignacyk/Studia/semestr3/pz2/lab11/MvcRestauracja/Views/Klient/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvS2xpZW50L0NyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/aleksandraignacyk/Studia/semestr3/pz2/lab11/MvcRestauracja/Views/Klient/DanieStatystyki.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvS2xpZW50L0RhbmllU3RhdHlzdHlraS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/aleksandraignacyk/Studia/semestr3/pz2/lab11/MvcRestauracja/Views/Klient/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvS2xpZW50L0RlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/aleksandraignacyk/Studia/semestr3/pz2/lab11/MvcRestauracja/Views/Klient/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvS2xpZW50L0RldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/aleksandraignacyk/Studia/semestr3/pz2/lab11/MvcRestauracja/Views/Klient/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvS2xpZW50L0VkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/aleksandraignacyk/Studia/semestr3/pz2/lab11/MvcRestauracja/Views/Klient/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvS2xpZW50L0luZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/aleksandraignacyk/Studia/semestr3/pz2/lab11/MvcRestauracja/Views/Login/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvTG9naW4vSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/aleksandraignacyk/Studia/semestr3/pz2/lab11/MvcRestauracja/Views/Login/LoggedIn.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvTG9naW4vTG9nZ2VkSW4uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/aleksandraignacyk/Studia/semestr3/pz2/lab11/MvcRestauracja/Views/Login/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvTG9naW4vUmVnaXN0ZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/aleksandraignacyk/Studia/semestr3/pz2/lab11/MvcRestauracja/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0Vycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/aleksandraignacyk/Studia/semestr3/pz2/lab11/MvcRestauracja/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/aleksandraignacyk/Studia/semestr3/pz2/lab11/MvcRestauracja/Views/Stolik/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU3RvbGlrL0NyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/aleksandraignacyk/Studia/semestr3/pz2/lab11/MvcRestauracja/Views/Stolik/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU3RvbGlrL0RlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/aleksandraignacyk/Studia/semestr3/pz2/lab11/MvcRestauracja/Views/Stolik/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU3RvbGlrL0RldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/aleksandraignacyk/Studia/semestr3/pz2/lab11/MvcRestauracja/Views/Stolik/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU3RvbGlrL0VkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/aleksandraignacyk/Studia/semestr3/pz2/lab11/MvcRestauracja/Views/Stolik/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU3RvbGlrL0luZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/aleksandraignacyk/Studia/semestr3/pz2/lab11/MvcRestauracja/Views/User/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVXNlci9DcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/aleksandraignacyk/Studia/semestr3/pz2/lab11/MvcRestauracja/Views/User/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVXNlci9EZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/aleksandraignacyk/Studia/semestr3/pz2/lab11/MvcRestauracja/Views/User/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVXNlci9EZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/aleksandraignacyk/Studia/semestr3/pz2/lab11/MvcRestauracja/Views/User/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVXNlci9FZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/aleksandraignacyk/Studia/semestr3/pz2/lab11/MvcRestauracja/Views/User/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVXNlci9JbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/aleksandraignacyk/Studia/semestr3/pz2/lab11/MvcRestauracja/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/aleksandraignacyk/Studia/semestr3/pz2/lab11/MvcRestauracja/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/aleksandraignacyk/Studia/semestr3/pz2/lab11/MvcRestauracja/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-2zbowh0dfq

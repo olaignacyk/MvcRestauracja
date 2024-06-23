@@ -1,0 +1,32 @@
+@model MvcRestauracja.Models.Kelner
+
+@{
+    ViewData["Title"] = "Szczegóły kelnera";
+}
+
+<div class="container">
+    <h1>Szczegóły kelnera</h1>
+
+    <div class="row">
+        <div class="col-md-6">
+            <dl class="row">
+                <dt class="col-sm-3">Imię:</dt>
+                <dd class="col-sm-9">@Html.DisplayFor(model => model.Imie)</dd>
+                <dt class="col-sm-3">Nazwisko:</dt>
+                <dd class="col-sm-9">@Html.DisplayFor(model => model.Nazwisko)</dd>
+                <dt class="col-sm-3">Data zatrudnienia:</dt>
+                <dd class="col-sm-9">@Html.DisplayFor(model => model.DataZatrudnienia)</dd>
+                <dt class="col-sm-3">Stoliki:</dt>
+                <dd class="col-sm-9">@Html.DisplayFor(model => model.Stoliki)</dd>
+            </dl>
+        </div>
+    </div>
+    <div class="row mt-3">
+        <div class="col-md-6">
+            <form asp-action="Delete" method="post">
+                <a asp-action="Edit" asp-route-id="@Model.Id" class="btn btn-primary">Edytuj</a>
+                <a asp-action="Index" class="btn btn-secondary">Powrót do listy</a>
+            </form>
+        </div>
+    </div>
+</div>

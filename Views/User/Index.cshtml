@@ -1,0 +1,45 @@
+@model IEnumerable<MvcRestauracja.Models.User>
+
+@{
+    ViewData["Title"] = "Użytkownicy";
+}
+
+<div class="container">
+    <h1>Użytkownicy</h1>
+
+    <div class="row">
+        <div class="col">
+            <a class="btn btn-primary" asp-action="Create">Dodaj nowego użytkownika</a>
+        </div>
+    </div>
+
+    <hr />
+
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th>@Html.DisplayNameFor(model => model.UserId)</th>
+                <th>@Html.DisplayNameFor(model => model.Username)</th>
+                <th>@Html.DisplayNameFor(model => model.Email)</th>
+                <th>@Html.DisplayNameFor(model => model.PhoneNumber)</th>
+                <th>Akcje</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>@Html.DisplayFor(modelItem => item.UserId)</td>
+                    <td>@Html.DisplayFor(modelItem => item.Username)</td>
+                    <td>@Html.DisplayFor(modelItem => item.Email)</td>
+                    <td>@Html.DisplayFor(modelItem => item.PhoneNumber)</td>
+                    <td>
+                        <a class="btn btn-primary" asp-action="Edit" asp-route-id="@item.UserId">Edytuj</a>
+                        <a class="btn btn-info" asp-action="Details" asp-route-id="@item.UserId">Szczegóły</a>
+                        <a class="btn btn-danger" asp-action="Delete" asp-route-id="@item.UserId">Usuń</a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>

@@ -1,0 +1,44 @@
+@model MvcRestauracja.Models.Kelner
+
+@{
+    ViewData["Title"] = "Dodaj kelnera";
+}
+
+<div class="container">
+    <h1>Dodaj kelnera</h1>
+
+    <div class="row">
+        <div class="col-md-6">
+            <form asp-action="Create" method="post">
+                <div class="form-group">
+                    <label asp-for="Imie" class="control-label">Imię</label>
+                    <input asp-for="Imie" class="form-control" />
+                    <span asp-validation-for="Imie" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="Nazwisko" class="control-label">Nazwisko</label>
+                    <input asp-for="Nazwisko" class="form-control" />
+                    <span asp-validation-for="Nazwisko" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="DataZatrudnienia" class="control-label">Data zatrudnienia</label>
+                    <input asp-for="DataZatrudnienia" class="form-control" />
+                    <span asp-validation-for="DataZatrudnienia" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="Stoliki" class="control-label">Stoliki</label>
+                    <select asp-for="Stoliki" class="form-control" asp-items="ViewBag.StolikiID" multiple="multiple"></select>
+                    <span asp-validation-for="Stoliki" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <button type="submit" class="btn btn-primary">Dodaj</button>
+                    <a asp-action="Index" class="btn btn-secondary">Powrót do listy</a>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

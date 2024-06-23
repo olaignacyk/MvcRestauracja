@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        /* Dodaj niestandardowe style CSS tutaj */
+        body {
+            padding-top: 20px;
+            font-family: Arial, sans-serif;
+            background-color: #f8f9fa;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        h2 {
+            margin-bottom: 20px;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        li {
+            margin-bottom: 10px;
+        }
+
+        a {
+            color: #ffffff;
+            text-decoration: none;
+            transition: color 0.3s ease;
+            display: block;
+            padding: 20px;
+            border-radius: 10px;
+        }
+
+        a:hover {
+            color: #ffffff;
+        }
+
+        .card-link:hover {
+            text-decoration: none;
+        }
+
+        /* Dodatkowe style dla okienek */
+        .card {
+            margin-bottom: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease;
+            border: none;
+            border-radius: 10px;
+            overflow: hidden;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+        }
+
+        .card-body {
+            padding: 0;
+        }
+
+        .card-img-top {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+
+        .card-text {
+            padding: 20px;
+            background-color: #007bff;
+        }
+
+        .card-title {
+            color: #ffffff;
+            font-size: 24px;
+            margin-bottom: 0;
+            padding: 20px;
+            background-color: #343a40;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+            <img class="card-img-top" src="https://www.ulton.pl/uploads/ulton%20środek%202%20tajemniczy1.png?1701095376093" alt="Card image cap">
+            <div class="card-body">
+                <h2 class="card-title">Klient</h2>
+                <p class="card-text">Przejdź do strony dotyczącej klientów.</p>
+                <a class="card-link" href="/Klient">Przejdź</a>
+            </div>
+        </div>
+
+        <div class="card">
+            <img class="card-img-top" src="https://katalogmarzen.pl/img/products/1/2019_06/kameralny-stolik-w-restauracji-u-mysliwych-jpg-1.jpg" alt="Card image cap">
+            <div class="card-body">
+                <h2 class="card-title">Stolik</h2>
+                <p class="card-text">Przejdź do strony dotyczącej stolików.</p>
+                <a class="card-link" href="/Stolik">Przejdź</a>
+            </div>
+        </div>
+
+        <div class="card">
+            <img class="card-img-top" src="https://mon-ami.pl/wp-content/uploads/2020/12/restaurant-691397_1920-1536x1024.jpg" alt="Card image cap">
+            <div class="card-body">
+                <h2 class="card-title">Danie</h2>
+                <p class="card-text">Przejdź do strony dotyczącej dań.</p>
+                <a class="card-link" href="/Danie">Przejdź</a>
+            </div>
+        </div>
+
+        <div class="card">
+            <img class="card-img-top" src="https://wynajmijzmywarke.pl/wp-content/uploads/2021/04/profesjonalny-kelner-trzymajacy-tace-w-reku-1.jpg" alt="Card image cap">
+            <div class="card-body">
+                <h2 class="card-title">Kelner</h2>
+                <p class="card-text">Przejdź do strony dotyczącej kelnerów.</p>
+                <a class="card-link" href="/Kelner">Przejdź</a>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

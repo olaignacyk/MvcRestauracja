@@ -1,0 +1,36 @@
+@model MvcRestauracja.Models.Klient
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h1>Create</h1>
+
+<form asp-action="Create">
+    <div class="form-group">
+        <label asp-for="Imie" class="control-label"></label>
+        <input asp-for="Imie" class="form-control" />
+        <span asp-validation-for="Imie" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="Nazwisko" class="control-label"></label>
+        <input asp-for="Nazwisko" class="form-control" />
+        <span asp-validation-for="Nazwisko" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="DataZamowienia" class="control-label"></label>
+        <input asp-for="DataZamowienia" class="form-control" />
+        <span asp-validation-for="DataZamowienia" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="Stolik.Id" class="control-label"></label>
+        <select asp-for="Stolik.Id" class="form-control" asp-items="ViewBag.StolikID"></select>
+    </div>
+    <div class="form-group">
+        <label asp-for="Dania" class="control-label"></label>
+        <select asp-for="Dania" class="form-control" asp-items="ViewBag.DaniaID" multiple></select>
+    </div>
+    <div class="form-group">
+        <input type="submit" value="Create" class="btn btn-primary" />
+    </div>
+</form>

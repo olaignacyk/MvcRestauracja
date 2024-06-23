@@ -1,0 +1,38 @@
+@model List<MvcRestauracja.Models.DanieStatystykiViewModel>
+
+@{
+    ViewData["Title"] = "Statystyki dań";
+}
+
+<div class="container">
+    <h1>Statystyki dań</h1>
+
+    <div class="row">
+        <div class="col">
+            <a class="btn btn-secondary" asp-action="Dashboard" asp-controller="Home">Powrót do panelu</a>
+        </div>
+        <div class="col text-right">
+            <a class="btn btn-secondary" asp-action="Index" asp-controller="Klient">Powrót</a>
+        </div>
+    </div>
+
+    <hr />
+
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th>Nazwa dania</th>
+                <th>Liczba zamówień</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>@item.NazwaDania</td>
+                    <td>@item.LiczbaZamowien</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>

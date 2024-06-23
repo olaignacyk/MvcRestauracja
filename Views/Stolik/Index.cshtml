@@ -1,0 +1,44 @@
+@model IEnumerable<MvcRestauracja.Models.Stolik>
+
+@{
+    ViewData["Title"] = "Stoliki";
+}
+
+<div class="container">
+    <h1>Stoliki</h1>
+
+    <div class="row">
+        <div class="col">
+            <a class="btn btn-primary" asp-action="Create">Dodaj nowy stolik</a>
+        </div>
+        <div class="col text-right">
+            <a class="btn btn-secondary" asp-action="Dashboard" asp-controller="Home">Powrót do panelu</a>
+        </div>
+    </div>
+
+    <hr />
+
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th>@Html.DisplayNameFor(model => model.Nazwa)</th>
+                <th>@Html.DisplayNameFor(model => model.Nakrycie)</th>
+                <th>Akcje</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>@Html.DisplayFor(modelItem => item.Nazwa)</td>
+                    <td>@Html.DisplayFor(modelItem => item.Nakrycie)</td>
+                    <td>
+                        <a class="btn btn-primary" asp-action="Edit" asp-route-id="@item.Id">Edytuj</a>
+                        <a class="btn btn-info" asp-action="Details" asp-route-id="@item.Id">Szczegóły</a>
+                        <a class="btn btn-danger" asp-action="Delete" asp-route-id="@item.Id">Usuń</a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>

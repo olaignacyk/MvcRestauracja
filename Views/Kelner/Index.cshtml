@@ -1,0 +1,50 @@
+@model IEnumerable<MvcRestauracja.Models.Kelner>
+
+@{
+    ViewData["Title"] = "Kelnerzy";
+}
+
+<div class="container">
+    <h1>Kelnerzy</h1>
+
+    <div class="row">
+        <div class="col">
+            <a class="btn btn-primary" asp-action="Create">Dodaj nowego kelnera</a>
+        </div>
+        <div class="col text-middle">
+            <a class="btn btn-secondary" asp-action="Dashboard" asp-controller="Home">Powrót do panelu</a>
+        </div>
+    </div>
+
+    <hr />
+
+    <div class="table-responsive">
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                <th>@Html.DisplayNameFor(model => model.Imie)</th>
+                <th>@Html.DisplayNameFor(model => model.Nazwisko)</th>
+                <th>@Html.DisplayNameFor(model => model.DataZatrudnienia)</th>
+                    <th>Akcje</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    <tr>
+                    <td>@Html.DisplayFor(modelItem => item.Imie)</td>
+                    <td>@Html.DisplayFor(modelItem => item.Nazwisko)</td>
+                    <td>@Html.DisplayFor(modelItem => item.DataZatrudnienia)</td>
+                        <td>
+                            <div class="btn-group" role="group" aria-label="Akcje">
+                        <a class="btn btn-primary" asp-action="Edit" asp-route-id="@item.Id">Edytuj</a>
+                        <a class="btn btn-info" asp-action="Details" asp-route-id="@item.Id">Szczegóły</a>
+                        <a class="btn btn-danger" asp-action="Delete" asp-route-id="@item.Id">Usuń</a>
+                            </div>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>
